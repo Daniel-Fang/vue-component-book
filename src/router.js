@@ -40,6 +40,14 @@ export default new Router({
         {
             path: '/',
             component: () => import('./views/index.vue')
+        },
+        {
+            path: '/button',
+            component: () => import('./views/button.vue')
+        },
+        {
+            path: '/try1',
+            component: () => import('./components/try1/result.vue')
         }
     ]
 })
